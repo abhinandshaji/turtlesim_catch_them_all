@@ -13,7 +13,7 @@ turtlesim_bringup contains the launch file for launching all the nodes
 
 All the executables: turtle_client_node, turtle_control_node, turtle_kill_client_node, turtlesim_node
 
-After building the packages in the root directory using 
+Build the packages in the root directory using 
 ```
 colcon build 
 ```
