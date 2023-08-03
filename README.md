@@ -14,8 +14,20 @@ turtlesim_bringup contains the launch file for launching all the nodes
 All the executables: turtle_client_node, turtle_control_node, turtle_kill_client_node, turtlesim_node
 
 After building the packages in the root directory using 
-'''
+```
 colcon build 
-'''
+```
+
+Source setup in the root directory using 
+```
+source install/setup.bash
+```
+
+Run this command in the terminal where we have sourced the setup files to run the launch file
+```
+ros2 launch turtlesim_bringup turtlesim_catch_them_all.launch.py
+```
+
+
 
 
