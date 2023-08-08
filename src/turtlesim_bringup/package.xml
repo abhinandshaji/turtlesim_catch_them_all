@@ -3,9 +3,9 @@
 <package format="3">
   <name>turtlesim_bringup</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Pkg to run the nodes</description>
   <maintainer email="abhinand@todo.todo">abhinand</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <exec_depend>turtlesim</exec_depend>
