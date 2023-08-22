@@ -27,6 +27,12 @@ Run this command in the terminal where we have sourced the setup files to run th
 ```
 ros2 launch turtlesim_bringup turtlesim_catch_them_all.launch.py
 ```
+---
+The PID control used in the turtle_control_node has been tested in matlab simulation.
+
+![image](https://github.com/abhinandshaji/turtlesim_catch_them_all/assets/91078614/de699822-a1fa-46fc-8c9d-eb1ccd8d4d24)
+
+The results found that the system was critically damped system. This ensures the turtle moves to its position without any overshoot.
 
 
 
