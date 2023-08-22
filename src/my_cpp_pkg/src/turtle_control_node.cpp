@@ -38,8 +38,6 @@ private:
     void callbackPos(const turtlesim::msg::Pose::SharedPtr pos_)
     {
         // Get to goal
-        // error
-        // Since they are shared ptr we use -> syntax
         // pose runs from pi to -pi
         // goal from pi to -pi
         er_->theta = goal_->theta - pos_->theta;
@@ -80,7 +78,6 @@ private:
             omega_ = er_->theta / dt_;
         }
 
-        // we  use . syntax as send_pos_ is not shared pointer
         send_pos_.angular.x = 0.0f;
         send_pos_.angular.y = 0.0f;
         send_pos_.linear.z = 0.0f;
