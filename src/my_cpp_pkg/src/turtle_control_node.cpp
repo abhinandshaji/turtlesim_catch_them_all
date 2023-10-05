@@ -23,7 +23,7 @@ public:
         status_publisher_ = this->create_publisher<std_msgs::msg::Bool>("turtle_status", 10);
 
         // Initialize shared pointers
-        // er_ = std::make_shared<turtlesim::msg::Pose>();
+        er_ = std::make_shared<turtlesim::msg::Pose>();
         goal_ = std::make_shared<turtlesim::msg::Pose>();
 
         RCLCPP_INFO(this->get_logger(), "Turtle control node has been started!!");
