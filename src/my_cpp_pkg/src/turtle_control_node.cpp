@@ -104,7 +104,7 @@ private:
     rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr parent_sub_;
 
     // set variable for error and time
-    std::shared_ptr<turtlesim::msg::Pose> er_;
+    // std::shared_ptr<turtlesim::msg::Pose> er_;
     float dt_;
 
     // Publisher varibale and the variable to publish
