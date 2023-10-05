@@ -88,7 +88,7 @@ private:
         // Using PD control
         // goal x and goal y are interchanged by the velocity axis and axis of the turtle
         // NOTE: Final Desired angular velocity is zero, hence no desired velocity is present
-        send_pos_.angular.z = 0.006 * (theta_er) + 0.000003 * (theta_er / dt_);
+        send_pos_.angular.z = 0.0065 * (theta_er) + 0.000003 * (theta_er / dt_);
 
         /* Using rotation matrix equations and using
            the Vx, Vy as the global x_dot and y_dot
