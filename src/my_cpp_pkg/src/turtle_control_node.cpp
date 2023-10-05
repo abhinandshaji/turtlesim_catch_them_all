@@ -9,7 +9,7 @@ class TurtleControlNode : public rclcpp::Node
 public:
     TurtleControlNode() : Node("turtle_control_node")
     {
-        // Subscribe to turrtle_position
+        // Subscribe to turtle_position
         subscriber_ = this->create_subscription<turtlesim::msg::Pose>("turtle_position", 10,
                                                                       std::bind(&TurtleControlNode::callbackGoal,
                                                                                 this, std::placeholders::_1));
